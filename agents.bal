@@ -3,7 +3,7 @@ import ballerinax/ai;
 
 final ai:OpenAiProvider _MyAgentModel = check new ("", ai:GPT_4O);
 final ai:Agent _MyAgentAgent = check new (
-    systemPrompt = {role: "", instructions: string ``}, model = _MyAgentModel, tools = [Mysample]
+    systemPrompt = {role: "News Agent", instructions: string `initial prompt`}, model = _MyAgentModel, tools = [Mysample]
 );
 
 # this is a description
