@@ -2,7 +2,7 @@
   "image": "ballerina/ballerina-devcontainer:2201.12.3",
   "customizations": {
     "vscode": {
-      "extensions": ["WSO2.ballerina"]
+      "extensions": ["WSO2.ballerina-integrator", "WSO2.ballerina"]
     }
   }
 }
